@@ -1,0 +1,19 @@
+spring:
+  datasource:
+    driver-class-name: org.h2.Driver
+    password: rushikesh
+    url: jdbc:h2:mem:testdb
+    username: rushikesh
+    
+plan-api:
+  messages: 
+    planSaveSucc: Plan Saved Successfully
+    planSaveFail: Plan Save Fail
+    planUpdateSucc: Plan Updated Successfully
+    planUpdateFail: Plan Update Failed
+    planDeleteSucc: Plan Deleted Successfully
+    planDeleteFail: Plan Delete Failed
+    planStatusChange: Plan Status Changed Successfully
+    planStatusChangeFailed: Plan Status Change failed
+    
+    
